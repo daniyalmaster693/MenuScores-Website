@@ -13,7 +13,7 @@ function Footer() {
               className="w-10 h-10"
             />
             <Link href="/" className="text-med font-medium text-black">
-              SuperCorners
+              MenuScores
             </Link>
           </div>
           <p className="text-xs font-normal text-gray-800 whitespace-nowrap">
@@ -38,12 +38,12 @@ function Footer() {
                 </Link>
               </li>
               <li className="text-sm font-normal text-gray-800">
-                <Link href="https://github.com/daniyalmaster693/SuperCorners/releases/download/1.3.0/SuperCorners.zip">
+                <Link href="https://github.com/daniyalmaster693/MenuScores/releases/download/2.0.0/MenuScores.zip">
                   Download
                 </Link>
               </li>
               <li className="text-sm font-normal text-gray-800">
-                <Link href="https://github.com/daniyalmaster693/SuperCorners">
+                <Link href="https://github.com/daniyalmaster693/MenuScores">
                   Github
                 </Link>
               </li>

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import MaxWidthWrapper from "./MaxWidthWrapper";
-import { Menu } from "lucide-react";
 
 function Navbar() {
   return (
@@ -15,7 +14,7 @@ function Navbar() {
                 className="w-10 h-10"
               />
               <Link href="/" className="text-med font-semibold text-black">
-                <span>SuperCorners</span>
+                <span>MenuScores</span>
               </Link>
             </div>
 
@@ -30,7 +29,7 @@ function Navbar() {
                 FAQ
               </Link>
               <Link
-                href="https://github.com/daniyalmaster693/SuperCorners/releases/download/1.3.0/SuperCorners.zip"
+                href="https://github.com/daniyalmaster693/MenuScores/releases/download/2.0.0/MenuScores.zip"
                 className="text-sm font-normal text-gray-800"
               >
                 Download
