@@ -15,8 +15,8 @@ export const formatPrice = (price) => {
 };
 
 export function constructMetadata({
-  title = "SuperCorners - Supercharge your Mac's Corners",
-  description = "Supercharge your Mac's Corners",
+  title = "MenuScores - Live Scores for macOS",
+  description = "Live Scores - Right From Your Notch ",
   image = "/openGraph.png",
   icons = "/icon_256x256.png",
 } = {}) {
@@ -27,11 +27,11 @@ export function constructMetadata({
     openGraph: {
       title,
       description,
-      siteName: "SuperCorners",
-      url: "https://supercorners.vercel.app/",
+      siteName: "MenuScores",
+      url: "https://menuscores.vercel.app/",
       type: "website",
       images: [{ url: image }],
     },
-    metadataBase: new URL("https://supercorners.vercel.app/"),
+    metadataBase: new URL("https://menuscores.vercel.app/"),
   };
 }
