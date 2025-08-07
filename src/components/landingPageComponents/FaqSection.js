@@ -20,8 +20,20 @@ function FaqSection() {
     },
     {
       question: "What Leagues are Supported?",
-      answer:
-        "Currently there are 32 leagues supported. You find the full list here: https://github.com/daniyalmaster693/MenuScores",
+      answer: (
+        <>
+          Currently there are 32 leagues supported. You can find the full list{" "}
+          <a
+            href="https://github.com/daniyalmaster693/MenuScores"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline hover:text-blue-800"
+          >
+            here
+          </a>
+          .
+        </>
+      ),
     },
     {
       question: "Do I need an API Key?",
@@ -39,8 +51,20 @@ function FaqSection() {
     },
     {
       question: "How can I report bugs or suggest features?",
-      answer:
-        "Open an issue or discussion on the GitHub repo: https://github.com/daniyalmaster693/MenuScores",
+      answer: (
+        <>
+          Open an issue or discussion on the GitHub repo{" "}
+          <a
+            href="https://github.com/daniyalmaster693/MenuScores"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline hover:text-blue-800"
+          >
+            here
+          </a>
+          .
+        </>
+      ),
     },
   ];
 

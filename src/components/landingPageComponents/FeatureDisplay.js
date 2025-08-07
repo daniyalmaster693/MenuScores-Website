@@ -3,37 +3,37 @@ const features = [
     title: "Notch Integration",
     description:
       "Pin games to your Macbooks notch for easy viewing and score updates just like on iOS.",
-    imgSrc: "https://dropoverapp.com/assets/images/tile-power-users.jpg",
+    imgSrc: "/screenshots/MenuScores-1.png",
   },
   {
     title: "Menubar Pinning",
     description:
       "Pin games in your menubar to receive real time score updates while staying focused.",
-    imgSrc: "https://dropoverapp.com/assets/images/tile-upload.jpg",
+    imgSrc: "/screenshots/MenuScores-2.png",
   },
   {
     title: "Track Multiple Sports",
     description:
       "Effortlessly keep tabs on different games across different leagues without getting distracted.",
-    imgSrc: "https://dropoverapp.com/assets/images/settings.jpg",
+    imgSrc: "/screenshots/MenuScores-3.png",
   },
   {
     title: "Game Info",
     description:
       "Built in support for live leaderboards for F1 Races and PGA/LPGA Golf tournaments.",
-    imgSrc: "https://dropoverapp.com/assets/images/tile-instant-actions.jpg",
+    imgSrc: "/screenshots/MenuScores-6.png",
   },
   {
     title: "Smart Notifications",
     description:
       "Optionally choose to receive notifications the moment a game starts or ends.",
-    imgSrc: "https://dropoverapp.com/assets/images/tile-upload.jpg",
+    imgSrc: "/screenshots/MenuScores-5.png",
   },
   {
     title: "Customizable",
     description:
-      "Choose from 32 different leagues, and select the ones you want to see.",
-    imgSrc: "https://dropoverapp.com/assets/images/tile-upload.jpg",
+      "Choose from 32 different leagues, and only choose the leagues you want to see.",
+    imgSrc: "/screenshots/MenuScores-4.png",
   },
 ];
 
@@ -41,10 +41,10 @@ function FeatureDisplay() {
   return (
     <section className="bg-[#FFF] py-24 pb-16" id="features">
       <h2 className="tracking-tight font-bold text-center text-3xl lg:text-5xl lg:leading-[3.5rem]">
-        Sports scores, reimagined for the Mac.
+        Live scores, reimagined for the Mac.
       </h2>
       <p className="text-center text-gray-700 font-medium text-lg lg:text-xl mt-2">
-        View scores in real time right from your Notch or Menubar
+        View scores in real time right from your Notch
       </p>
 
       <div className="max-w-sm sm:max-w-4xl xl:max-w-6xl mx-auto flex items-center flex-col gap-20 mt-20">
@@ -56,7 +56,7 @@ function FeatureDisplay() {
             <img
               src={feature.imgSrc}
               alt={feature.title}
-              className={`w-[460px] h-[320px] rounded-[2rem] flex-shrink-0 ${
+              className={`w-[500px] h-[315px] rounded-[1.75rem] flex-shrink-0 ${
                 i % 2 === 1 ? "order-1 xl:order-2" : ""
               }`}
             />
