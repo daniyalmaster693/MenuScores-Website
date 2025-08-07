@@ -24,7 +24,7 @@ function FaqSection() {
         "Currently there are 32 leagues supported. You find the full list here: https://github.com/daniyalmaster693/MenuScores",
     },
     {
-      question: "Do I need an api key?",
+      question: "Do I need an API Key?",
       answer:
         "No, no api key is needed, MenuScores takes care of everything for you.",
     },
