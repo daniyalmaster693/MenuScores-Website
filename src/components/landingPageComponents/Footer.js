@@ -9,7 +9,7 @@ function Footer() {
           <div className="flex items-center gap-1 -ml-1">
             <img
               src="/logos/icon_256x256.png"
-              alt="SuperCorners logo"
+              alt="MenuScores logo"
               className="w-10 h-10"
             />
             <Link href="/" className="text-med font-medium text-black">

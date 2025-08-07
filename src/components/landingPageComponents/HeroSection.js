@@ -13,21 +13,21 @@ function HeroSection() {
           <div className="col-span-1 px-2 lg:px-0">
             <div className="relative mx-auto text-center lg:text-left flex flex-col items-center">
               <h1 className="relative w-fit tracking-tighter text-balance font-bold !leading-tight text-gray-900 text-5xl -mt-5 md:text-6xl mb-4">
-                Supercharge your Mac's Corners
+                Live Scores - Right From Your Notch
               </h1>
 
               <video
-                src="https://dropover.s3.eu-central-1.amazonaws.com/videos/ventura/dropover_intro.mp4"
+                src="/screen recordings/MenuScores Notch Demo.mp4"
                 autoPlay
                 muted
                 loop
                 playsInline
-                className="mt-10 mb-3 rounded-[2.5rem] max-w-full w-[480px] lg:w-[720px] mx-auto"
+                className="mt-10 mb-3 rounded-[2.5rem] max-w-full w-[530px] lg:w-[800px] mx-auto"
               />
 
               <div className="flex flex-col items-center text-center">
                 <Link
-                  href="https://github.com/daniyalmaster693/SuperCorners/releases/download/1.3.0/SuperCorners.zip"
+                  href="https://github.com/daniyalmaster693/MenuScores/releases/download/2.0.0/MenuScores.zip"
                   className={cn(
                     buttonVariants({ size: "lg" }),
                     "flex items-center justify-center mt-8 group rounded-[8px] px-6 py-1"

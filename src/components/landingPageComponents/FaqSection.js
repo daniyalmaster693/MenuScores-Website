@@ -10,42 +10,37 @@ import { ChevronRight } from "lucide-react";
 function FaqSection() {
   const faqs = [
     {
-      question: "What is SuperCorners?",
+      question: "What is MenuScores?",
       answer:
-        "SuperCorners supercharges your Mac's Corners by allowing you to assign custom actions for more control.",
+        "MenuScores is a macOS menubar app that puts live scores right in your menubar or notch!",
     },
     {
       question: "Which macOS versions are supported?",
-      answer: "SuperCorners requires macOS 13+ (Ventura) and later.",
+      answer: "MenuScores requires macOS 13+ (Ventura) and later.",
     },
     {
-      question: "What actions can I assign to corners?",
+      question: "What Leagues are Supported?",
       answer:
-        "You can launch apps, open files and folders, run shortcuts or appleScripts, open websites, and more. There are currently 88 different actions that can be assigned with more added in every update.",
+        "Currently there are 32 leagues supported. You find the full list here: https://github.com/daniyalmaster693/MenuScores",
     },
     {
-      question: "Can I assign the same action to multiple corners?",
+      question: "Do I need an api key?",
       answer:
-        "You can assign any action to any corner with no restrictions. This includes actions that require additional input (template actions) that are set on a per corner/zone basis.",
+        "No, no api key is needed, MenuScores takes care of everything for you.",
     },
     {
-      question: "Can I disable certain corners or zones?",
+      question: "How do I update MenuScores?",
       answer:
-        "Yes, you can enable or disable individual corners and zones from the settings window.",
-    },
-    {
-      question: "How do I update SuperCorners?",
-      answer:
-        "If installed with Homebrew, run: brew upgrade --cask supercorners. Otherwise, the in app updater will take care of things for you.",
+        "If installed with Homebrew, run: brew upgrade --cask menuscores. Otherwise, the in app updater will take care of things for you.",
     },
     {
       question: "Is my data collected?",
-      answer: "No. SuperCorners does not collect data.",
+      answer: "No. MenuScores does not collect data.",
     },
     {
       question: "How can I report bugs or suggest features?",
       answer:
-        "Open an issue or discussion on the GitHub repo: https://github.com/daniyalmaster693/SuperCorners",
+        "Open an issue or discussion on the GitHub repo: https://github.com/daniyalmaster693/MenuScores",
     },
   ];
 

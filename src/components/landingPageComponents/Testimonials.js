@@ -13,34 +13,24 @@ function TestimonialsSection() {
               <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6 w-full px-4">
                 {[
                   {
-                    user: "u/Visual-Square-4416",
+                    user: "u/Creative_Half4392",
                     comment:
-                      "Wow! This is something I've been looking for. It's rare to find a productivity app that extends hot corner functionality like this. Nice work!!",
+                      "Well holy shit. Someone actually posting something useful here. Well done!!!",
                   },
                   {
-                    user: "u/van_der_paul",
+                    user: "u/_harveyghost",
                     comment:
-                      "This is a super useful app. Thank you so much. Definitely looking forward to your future updates. ",
+                      "Well this is rad as hell, I'll definitely check this out! Excellent work, OP!",
                   },
                   {
-                    user: "u/trey-a-12",
+                    user: "u/hxriljohxn",
                     comment:
-                      "Hey, let me just say this – SuperCorners is AWESOME. I've only just started using it, but things are looking great and this may very well become part of my `essential suite`. I've always wanted a solid supercharged version of the macOS Hot Corners, and that's exactly what this is.",
+                      "Really loving the new update especially the notch integration! ",
                   },
                   {
-                    user: "u/Latter_Pen2421",
+                    user: "u/billchase2",
                     comment:
-                      "I've always thought this was a good idea! Thanks so much for making. You will forever have a customer. I hope you keep developing.",
-                  },
-                  {
-                    user: "u/dSantanaOf",
-                    comment:
-                      "I'm using it and it's very good, I'll be able to be more productive!",
-                  },
-                  {
-                    user: "u/_waffles3",
-                    comment:
-                      "This looks like a really useful app. Thank you dev! ",
+                      "Oooo love all of the college sports that have been added. Thanks! ",
                   },
                 ].map((t, i) => (
                   <div
