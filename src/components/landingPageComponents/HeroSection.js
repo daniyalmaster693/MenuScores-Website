@@ -57,10 +57,10 @@ function HeroSection() {
                       onClick={() => {
                         navigator.clipboard.writeText(
                           `brew tap daniyalmaster693/casks
-brew install --cask supercorners`
+brew install --cask menuscores`
                         );
                         alert(
-                          "Copied SuperCorners Installation Command to Clipboard!"
+                          "Copied MenuScores Installation Command to Clipboard!"
                         );
                       }}
                     >
