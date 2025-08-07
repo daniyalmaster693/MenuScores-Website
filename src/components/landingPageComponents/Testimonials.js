@@ -15,7 +15,7 @@ function TestimonialsSection() {
                   {
                     user: "u/Creative_Half4392",
                     comment:
-                      "Well holy shit. Someone actually posting something useful here. Well done!!!",
+                      "Well holy. Someone actually posting something useful here. Well done!!!",
                   },
                   {
                     user: "u/_harveyghost",
