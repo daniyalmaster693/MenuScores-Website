@@ -18,7 +18,7 @@ export function constructMetadata({
   title = "MenuScores - Live scores, reimagined for the Mac.",
   description = "Live Scores - Right From Your Notch ",
   image = "/openGraph.png",
-  icons = "/icon_256x256.png",
+  icons = "/logos/icon_256x256.png",
 } = {}) {
   return {
     title,
